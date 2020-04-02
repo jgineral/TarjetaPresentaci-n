@@ -30,7 +30,7 @@ struct ContentView: View {
                 Text("iOS Developer")
                     .font(Font.system(size: 25))
                     .foregroundColor(.white)
-                Divider()
+                Divider().background(Color(K.MainColors.infoColor))
                 InfoView(text: "692 88 75 43", imageName: "phone.fill")
                 InfoView(text: "jgineralvarez@gmail.com", imageName: "envelope.fill")
             }
